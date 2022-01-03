@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/applesbananas/static/css/main.eae7a6c5.css",
-    "main.js": "/applesbananas/static/js/main.79312142.js",
+    "main.css": "/applesbananas/static/css/main.c5690f3e.css",
+    "main.js": "/applesbananas/static/js/main.e36edd4b.js",
     "static/js/787.47aa82a3.chunk.js": "/applesbananas/static/js/787.47aa82a3.chunk.js",
     "static/media/LOGO.jpg": "/applesbananas/static/media/LOGO.05401c589bded4de81fa.jpg",
     "index.html": "/applesbananas/index.html",
-    "main.eae7a6c5.css.map": "/applesbananas/static/css/main.eae7a6c5.css.map",
-    "main.79312142.js.map": "/applesbananas/static/js/main.79312142.js.map",
+    "main.c5690f3e.css.map": "/applesbananas/static/css/main.c5690f3e.css.map",
+    "main.e36edd4b.js.map": "/applesbananas/static/js/main.e36edd4b.js.map",
     "787.47aa82a3.chunk.js.map": "/applesbananas/static/js/787.47aa82a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eae7a6c5.css",
-    "static/js/main.79312142.js"
+    "static/css/main.c5690f3e.css",
+    "static/js/main.e36edd4b.js"
   ]
 }
