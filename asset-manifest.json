@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/applesnbananas/static/css/main.eae7a6c5.css",
+    "main.js": "/applesnbananas/static/js/main.06a7895e.js",
+    "static/js/787.47aa82a3.chunk.js": "/applesnbananas/static/js/787.47aa82a3.chunk.js",
+    "static/media/LOGO.jpg": "/applesnbananas/static/media/LOGO.05401c589bded4de81fa.jpg",
+    "index.html": "/applesnbananas/index.html",
+    "main.eae7a6c5.css.map": "/applesnbananas/static/css/main.eae7a6c5.css.map",
+    "main.06a7895e.js.map": "/applesnbananas/static/js/main.06a7895e.js.map",
+    "787.47aa82a3.chunk.js.map": "/applesnbananas/static/js/787.47aa82a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eae7a6c5.css",
+    "static/js/main.06a7895e.js"
+  ]
+}
