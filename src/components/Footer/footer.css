@@ -1,0 +1,52 @@
+.footerContainer {
+    /* border: 1px solid red; */
+    /* display: flex; */
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.iconContainer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    /* border: 1px solid purple; */
+    text-align: center;
+}
+
+.icon {
+    /* border: 1px solid black; */
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 19px;
+    /* color: #F4E1A1; */
+    /* color: #B4CBDC; */
+    color: #2A74A4;
+    /* border: 1px solid orange; */
+}
+
+.icon:hover {
+    transition: all 0.2s ease-in-out;
+    height: 25.4px;
+    width: 25.4px;
+    /* color: #B4CBDC; */
+    opacity: 50%;
+    /* background: #B4CBDC; */
+}
+
+.copyright {
+    text-align: right;
+}
+
+.wh {
+    color: #4CED69;
+}
+
+.em {
+    color: #EA4335;
+}
+
+.ig {
+    color: #D92C7B;
+}

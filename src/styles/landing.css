@@ -1,0 +1,16 @@
+.page {
+    margin: 0px auto;
+    width: 100%;
+}
+
+.header {
+    /* position: sticky; */
+    top: 0;
+}
+
+.content {
+    height: 100%;
+    
+    /* padding: 0% 1% 0% 1%; */
+    width: 100%;
+}

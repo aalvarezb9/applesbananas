@@ -1,0 +1,74 @@
+
+.nvCustomContainer {
+    position: sticky;
+    /* position: fixed; */
+    /* position: relative; */
+}
+
+.nvCustom {
+    color: #000!important;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #f1f; */
+    width: 600px;
+    /* position: fixed; */
+}
+
+.itemC {
+    color: #2A74A4!important;
+    margin-top: 50px;
+}
+
+.itemC:hover {
+    transition: all 0.7s ease-in-out;
+    color: #9ED7D2!important;
+    /* background: #2A74A4; */
+    /* color: #9ED7D2!important; */
+}
+
+.logo {
+    /* border: 1px solid blue; */
+    margin-right: 70px;
+}
+
+.logo img:hover {
+    cursor: pointer;
+    opacity: 85%;
+}
+
+@media screen and (max-width: 560px) {
+    /* .nvCustom {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    } */
+
+    .logo img {
+        /* display: none; */
+        height: 100px!important;
+        width: 100px!important;
+    }
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nvCustomContainer {
+        display: table!important;
+        height: auto!important;
+    }
+
+    .nvCustom {
+        display: table-cell!important;
+        vertical-align: middle!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        justify-content: center!important;
+        text-align: center!important;
+    }
+
+    .itemC {
+        margin: 10px!important;
+    }
+}

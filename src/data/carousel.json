@@ -1,0 +1,32 @@
+[
+    {
+        "img": "/img/carousel1.jpg",
+        "cap1": "Primera imagen",
+        "cap2": "No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor...",
+        "alt": "Primera imagen"
+    },
+    {
+        "img": "/img/carousel2.jpg",
+        "cap1": "Segunda imagen",
+        "cap2": "No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor...",
+        "alt": "Segunda imagen"
+    },
+    {
+        "img": "/img/carousel3.jpg",
+        "cap1": "Tercera imagen",
+        "cap2": "No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor...",
+        "alt": "Tercera imagen"
+    },
+    {
+        "img": "/img/carousel4.jpg",
+        "cap1": "Cuarta imagen",
+        "cap2": "No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor...",
+        "alt": "Cuarta imagen"
+    },
+    {
+        "img": "/img/carousel5.jpg",
+        "cap1": "Quinta imagen",
+        "cap2": "No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor...",
+        "alt": "Quinta imagen"
+    }
+]

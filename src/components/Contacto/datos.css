@@ -1,0 +1,19 @@
+
+
+.fbContainer, .igContainer, .emContainer, .whContainer {
+    /* border: 1px solid salmon; */
+    /* background: #F4E1A1; */
+    width: 250px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 10px;
+    /* border: 1px solid #5E94B7; */
+}
+
+/* .fbContainer:hover, .igContainer:hover, .emContainer:hover, .whContainer:hover {
+    border: 1px solid #5690B4;
+} */
+
+.icon2 {
+    color: #5690B4!important;
+}

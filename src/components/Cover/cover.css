@@ -1,0 +1,14 @@
+.crs {
+    height: calc(100vh - 140px);
+}
+
+.coverContainer {
+    margin-top: 0px;
+    /* border: 1px solid pink; */
+}
+
+@media screen and (max-width: 560px) {
+    img {
+        height: calc(100vh - 260px)!important;
+    }
+}

@@ -1,0 +1,59 @@
+
+
+.banner {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    /* border: 1px solid yellowgreen; */
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+}
+
+.bannerImg {
+    animation: movimiento 2.5s linear infinite;
+}
+
+.btnCrearCurso {
+    text-align: center;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.bannerImg img{
+    width: 300px;
+    display: block;
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 560px) {
+    .bannerImg img {
+        width: 200px;
+        display: none;
+    }
+
+    .bannerTitle h1 {
+        font-size: 50px;
+        font-weight: 800;
+    }
+    
+    .contenedor {
+        width: auto;
+        max-width: auto;
+    }
+}
