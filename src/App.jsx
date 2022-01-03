@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/applesbananas" element={<Landing />} />
+        <Route path="/*" element={<>404</>} />
       </Routes>
     </BrowserRouter>
   );

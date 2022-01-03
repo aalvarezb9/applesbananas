@@ -35,8 +35,8 @@ const Navbar = ({color, setColor}) => {
                 </Nav.Item>
                 <Nav.Item>
                     {pressed === 'home'? 
-                        <Nav.Link onClick={() => setPressed('home')} style={{background: '#F4E1A1'}} className='itemC' href="/" >Inicio</Nav.Link>: 
-                            <Nav.Link onClick={() => setPressed('home')} className='itemC' href="/" >Inicio</Nav.Link>
+                        <Nav.Link onClick={() => setPressed('home')} style={{background: '#F4E1A1'}} className='itemC' href="/applesbananas" >Inicio</Nav.Link>: 
+                            <Nav.Link onClick={() => setPressed('home')} className='itemC' href="/applesbananas" >Inicio</Nav.Link>
                     }
                 </Nav.Item>
                 <Nav.Item>

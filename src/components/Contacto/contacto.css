@@ -6,6 +6,13 @@
     display: flex;
 }
 
+.contactoD {
+    width: 100%!important;
+    /* margin-top: 100px; */
+    /* padding: 3%; */
+    /* border: 1px solid black; */
+    display: flex;
+}
 
 .formulario {
     width: 40%!important;
@@ -34,4 +41,43 @@
 .informacion {
     display: flex;
     /* border: 1px solid yellow; */
+}
+
+@media screen and (max-width: 560px) {
+    .contacto {
+        display: table!important;
+        height: auto!important;
+    }
+
+    .contactoD {
+        display: table-cell!important;
+        vertical-align: middle!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        justify-content: center!important;
+        text-align: center!important;
+    }
+
+    .formulario {
+        width: 100%!important;
+    }
+
+    .datos {
+        text-align: center!important;
+        justify-content: center!important;
+        justify-items: center!important;
+        /* border: 1px solid black; */
+    }
+
+    .iconContainer {
+        /* border: 1px solid blue; */
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    .fbContainer, .igContainer, .emContainer, .whContainer {
+        /* border: 1px solid purple; */
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
 }
