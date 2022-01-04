@@ -42,7 +42,7 @@ const Footer = ({color, setColor}) => {
                     </p>
                 </div>
             </div>
-            <Burbujas color={color} />
+            {/* <Burbujas color={color} /> */}
         </>
     )
 }

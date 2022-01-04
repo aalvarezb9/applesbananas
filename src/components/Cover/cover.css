@@ -4,6 +4,7 @@
 
 .coverContainer {
     margin-top: 0px;
+    overflow: hidden!important;
     /* border: 1px solid pink; */
 }
 

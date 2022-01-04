@@ -1,8 +1,7 @@
 
 .nvCustomContainer {
-    position: sticky;
-    /* position: fixed; */
-    /* position: relative; */
+    overflow: auto;
+    background: white!important;
 }
 
 .nvCustom {
@@ -11,6 +10,7 @@
     margin-right: auto;
     /* border: 1px solid #f1f; */
     width: 600px;
+    background: white!important;
     /* position: fixed; */
 }
 
@@ -37,11 +37,6 @@
 }
 
 @media screen and (max-width: 560px) {
-    /* .nvCustom {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-    } */
 
     .logo img {
         /* display: none; */

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import Cover from '../components/Cover/Cover'
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
@@ -12,6 +14,7 @@ function Landing() {
     const [color, setColor] = useState('');
 
     useEffect(() => {
+        Aos.init({duration: 3000});
         setColor(colors[random(0, 2)]);
     }, []);
 
@@ -20,15 +23,22 @@ function Landing() {
     }
 
 
+
     return (
         <div className='page clrGeneral'>
-            <div className="header">
+            <div id='navbar' data-aos='fade-down' className='header'>
                 <Navbar color={color} setColor={setColor} />
             </div>
-            <div className="content">
-                <Cover />
-                <Servicios />
-                <Contacto />
+            <div className='content'>
+                <div style={{overflow: 'hidden'}} data-aos='fade-up' className='hd'>
+                    <Cover color={color} />
+                </div>
+                <div style={{overflow: 'hidden'}} data-aos='fade-right' className='hd'>
+                    <Servicios />
+                </div>
+                <div style={{overflow: 'hidden'}} data-aos='fade-left' className='hd'>
+                    <Contacto />
+                </div>
                 <Footer color={color} setColor={setColor} />
             </div>
         </div>
