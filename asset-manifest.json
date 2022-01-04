@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/applesbananas/static/css/main.15040b67.css",
-    "main.js": "/applesbananas/static/js/main.fe67cc0f.js",
+    "main.js": "/applesbananas/static/js/main.684faefd.js",
     "static/js/787.47aa82a3.chunk.js": "/applesbananas/static/js/787.47aa82a3.chunk.js",
     "static/media/LOGO.jpg": "/applesbananas/static/media/LOGO.05401c589bded4de81fa.jpg",
     "index.html": "/applesbananas/index.html",
     "main.15040b67.css.map": "/applesbananas/static/css/main.15040b67.css.map",
-    "main.fe67cc0f.js.map": "/applesbananas/static/js/main.fe67cc0f.js.map",
+    "main.684faefd.js.map": "/applesbananas/static/js/main.684faefd.js.map",
     "787.47aa82a3.chunk.js.map": "/applesbananas/static/js/787.47aa82a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15040b67.css",
-    "static/js/main.fe67cc0f.js"
+    "static/js/main.684faefd.js"
   ]
 }
