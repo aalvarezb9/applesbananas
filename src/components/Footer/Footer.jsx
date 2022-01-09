@@ -9,7 +9,7 @@ const Footer = ({color, setColor}) => {
             <hr style={{color: '#2A74A4', marginBottom: '2px', marginTop: '2px'}} />
             <hr style={{color: '#F4E1A1', marginBottom: '2px', marginTop: '2px'}} />
             <hr style={{color: '#B4CBDC', marginBottom: '2px', marginTop: '2px'}} />
-            <div className='footerContainer' id="acecade">
+            <div className='footerContainer'>
                 <div className="iconContainer">
                     <a
                         target="_blank"

@@ -70,3 +70,15 @@
 .tt {
     margin-bottom: 40px!important;
 }
+
+
+
+@media screen and (max-width: 560px) {
+    .servicios {
+        display: inline;
+    }
+
+    .servicio {
+        width: 100%!important;
+    }
+}

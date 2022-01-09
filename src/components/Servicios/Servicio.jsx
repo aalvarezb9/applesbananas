@@ -11,6 +11,7 @@ import SwiperCore, {
 } from 'swiper';
 
 import edu from '../../utils/img/edu.jpg';
+import servicios from '../../data/servicios.json';
     
     // install Swiper modules
 SwiperCore.use([Pagination]);
@@ -23,127 +24,27 @@ const Servicio = () => {
                 return '<span class=\"' + className + '\">' + (index + 1) + '</span>';
         }
     }
+
     return (
         <div className="servicio">
+        
             <Swiper pagination={pagination} className="mySwiper">
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <Card className="tt" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={edu} />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </Card.Text>
-                            {/* <Button variant="primary">Go somewhere</Button> */}
-                        </Card.Body>
-                    </Card>
-                </SwiperSlide>
+                {servicios.map((servicio, index) => 
+                    <SwiperSlide key={index}>
+                        <Card className="tt" style={{ width: "18rem" }}>
+                            <Card.Img variant="top" src={edu} />
+                            <Card.Body>
+                                <Card.Title>{servicio.title}</Card.Title>
+                                <Card.Text>
+                                    {servicio.body}
+                                </Card.Text>
+                                <Button variant="primary">Go somewhere</Button>
+                            </Card.Body>
+                        </Card>
+                    </SwiperSlide>
+                )}
             </Swiper>
+        
         </div>
     )
 }

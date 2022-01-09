@@ -10,10 +10,12 @@ const Servicios = () => {
 
     return (
         <div id="servicios" className="servicios">
+            {/* <div className="serviciosContent"> */}
             <div className="textoS">
                 <Texto titulo={titulo} ancho={ancho} parrafo={parrafo} />
             </div>
             <Servicio />
+            {/* </div> */}
         </div>
     )
 }
