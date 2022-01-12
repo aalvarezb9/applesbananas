@@ -4,14 +4,14 @@
 }
 
 .servicios {
-    margin-top: 100px;
-    padding: 3%;
+    /* padding: 3%; */
     display: flex;
 }
 
 .textoS {
     /* border: 1px solid black; */
-    padding: 0;
+    padding: 3%;
+    /* margin-top: 50px; */
 }
 
 .servicio {
@@ -77,8 +77,16 @@
     .servicios {
         display: inline;
     }
-
+    
     .servicio {
         width: 100%!important;
+    }
+
+    .textoS {
+        margin-top: 50px;
+    }
+
+    .ajustar {
+        height: 350px!important;
     }
 }

@@ -8,6 +8,7 @@ import Servicios from '../components/Servicios/Servicios'
 import colors from '../utils/js/colors';
 import '../styles/landing.css';
 import Contacto from '../components/Contacto/Contacto'
+import Acercade from '../components/Acercade/Acercade';
 
 function Landing() {
 
@@ -38,6 +39,9 @@ function Landing() {
                 </div>
                 <div style={{overflow: 'hidden'}} data-aos='fade-left' className='hd'>
                     <Contacto />
+                </div>
+                <div style={{overflow: 'hidden'}} data-aos='fade-right' className="hd">
+                    <Acercade />
                 </div>
                 <Footer color={color} setColor={setColor} />
             </div>

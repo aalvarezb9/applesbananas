@@ -1,0 +1,71 @@
+/* .estrategia {
+    display: flex;
+    margin-top: 100px;
+} */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    /* background: url("https://swiperjs.com/demos/images/nature-1.jpg"); */
+}
+
+.swiperSlide {
+    font-size: 18px;
+    /* color: #111; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    background-color: transparent;
+}
+
+.swiperSlide2 {
+    display: inline;
+    font-size: 18px;
+    /* color: #111; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    background-color: transparent;
+}
+
+.parallaxBg {
+    background-image: url('../../utils/img/parallax2.jpg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiperSlide .title {
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.swiperSlide .subtitle {
+    font-size: 21px;
+}
+
+.swiperSlide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+.title {
+    width: 20%;
+}
+
+.subtitle {
+    width: 50%;
+    padding-left: 0;
+}
+
+.text {
+    width: 100%!important;
+    text-align: center;
+}

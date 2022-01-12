@@ -27,12 +27,11 @@ const Servicio = () => {
 
     return (
         <div className="servicio">
-        
             <Swiper pagination={pagination} className="mySwiper">
                 {servicios.map((servicio, index) => 
                     <SwiperSlide key={index}>
                         <Card className="tt" style={{ width: "18rem" }}>
-                            <Card.Img variant="top" src={edu} />
+                            <Card.Img className="ajustar" variant="top" src={edu} />
                             <Card.Body>
                                 <Card.Title>{servicio.title}</Card.Title>
                                 <Card.Text>

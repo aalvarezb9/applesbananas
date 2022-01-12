@@ -24,7 +24,6 @@ const Footer = ({color, setColor}) => {
                         <BsInstagram className='icon ig' />
                     </a>
                     <a
-                        target="_blank"
                         href="#contacto"
                     >
                         <FiMail className='icon em' />

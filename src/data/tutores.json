@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "La Roca",
+        "profesion": "Psicólogo",
+        "edad": 45,
+        "descripcion": "Lo caracteriza su amabilidad y dulzura con los niños.",
+        "imagen": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2-1556642602.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Scarlett Johansson",
+        "profesion": "Pedagoga",
+        "edad": 28,
+        "descripcion": "Es fuerte y nació para educar personas. Los niños: su debilidad.",
+        "imagen": "https://media.gossipvzla.com/wp-content/uploads/2021/08/14003615/scarlett.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Mary Jane Watson",
+        "profesion": "Maestra",
+        "edad": 34,
+        "descripcion": "Se graduó de maestra de preescolar a los 20 años, le gustan las alturas.",
+        "imagen": "https://img.asmedia.epimg.net/resizer/BmstSZhqZderE_ZziMbI1X5ymrk=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/5P4YMYUAMNKUPLIAEHRCAGSN34.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "La Roca",
+        "profesion": "Psicólogo",
+        "edad": 45,
+        "descripcion": "Lo caracteriza su amabilidad y dulzura con los niños.",
+        "imagen": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2-1556642602.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Scarlett Johansson",
+        "profesion": "Pedagoga",
+        "edad": 28,
+        "descripcion": "Es fuerte y nació para educar personas. Los niños: su debilidad.",
+        "imagen": "https://media.gossipvzla.com/wp-content/uploads/2021/08/14003615/scarlett.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Mary Jane Watson",
+        "profesion": "Maestra",
+        "edad": 34,
+        "descripcion": "Se graduó de maestra de preescolar a los 20 años, le gustan las alturas.",
+        "imagen": "https://img.asmedia.epimg.net/resizer/BmstSZhqZderE_ZziMbI1X5ymrk=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/5P4YMYUAMNKUPLIAEHRCAGSN34.jpg"
+    }
+]

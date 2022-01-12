@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 560px) {
     img {
-        height: calc(100vh - 260px)!important;
+        height: calc(100vh - 400px)!important;
     }
 }
