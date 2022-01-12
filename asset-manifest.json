@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/applesbananas/static/css/main.a0e9cade.css",
-    "main.js": "/applesbananas/static/js/main.a997551f.js",
+    "main.css": "/applesbananas/static/css/main.3a20003c.css",
+    "main.js": "/applesbananas/static/js/main.f12e606e.js",
     "static/js/787.47aa82a3.chunk.js": "/applesbananas/static/js/787.47aa82a3.chunk.js",
     "static/media/LOGO.jpg": "/applesbananas/static/media/LOGO.05401c589bded4de81fa.jpg",
+    "static/media/edu.jpg": "/applesbananas/static/media/edu.64cc340d816cb9cdada8.jpg",
+    "static/media/parallax2.jpg": "/applesbananas/static/media/parallax2.9430e86025ea7884dfdc.jpg",
     "index.html": "/applesbananas/index.html",
-    "main.a0e9cade.css.map": "/applesbananas/static/css/main.a0e9cade.css.map",
-    "main.a997551f.js.map": "/applesbananas/static/js/main.a997551f.js.map",
+    "main.3a20003c.css.map": "/applesbananas/static/css/main.3a20003c.css.map",
+    "main.f12e606e.js.map": "/applesbananas/static/js/main.f12e606e.js.map",
     "787.47aa82a3.chunk.js.map": "/applesbananas/static/js/787.47aa82a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0e9cade.css",
-    "static/js/main.a997551f.js"
+    "static/css/main.3a20003c.css",
+    "static/js/main.f12e606e.js"
   ]
 }
