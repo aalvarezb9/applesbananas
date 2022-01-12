@@ -1,7 +1,7 @@
 const TutoresCard = ({tutor}) => {
     return (
         <li className="tutorCard">
-            <img width={230} height={345} className="tutorImage" src={tutor.imagen} alt={tutor.nombre} />
+            <img width={230} height={330} className="tutorImage" src={tutor.imagen} alt={tutor.nombre} />
             <div className="datosTutor">
                 <div>
                     <b>

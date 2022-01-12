@@ -33,7 +33,6 @@ const Datos = () => {
                 <hr className='sep' />
                 <div className="emContainer">
                     <a
-                        target="_blank"
                         href="#contacto"
                     >
                         <FiMail className='icon icon2 em' />
