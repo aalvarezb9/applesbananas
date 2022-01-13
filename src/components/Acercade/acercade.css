@@ -19,6 +19,7 @@
     list-style: none;
     font-size: 1.5rem;
     text-align: center;
+    /* border: 1px solid #F4E1A1 */
 }
 
 .tutorCard:hover {
@@ -26,7 +27,8 @@
 }
 
 .tutorImage {
-    border-radius: 10px;
+    border-radius: 50%;
+    border: 1px solid #F4E1A1;
     background-color: azure;
 }
 
