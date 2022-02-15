@@ -1,6 +1,6 @@
 import { BsFacebook, BsInstagram, BsWhatsapp } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
-import Burbujas from '../Burbujas';
+// import Burbujas from '../Burbujas';
 import './footer.css';
 
 const Footer = ({color, setColor}) => {
@@ -13,12 +13,14 @@ const Footer = ({color, setColor}) => {
                 <div className="iconContainer">
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://www.facebook.com/applesnbananashn"
                     >
                         <BsFacebook className='icon fb' />
                     </a>
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://www.instagram.com/applesnbananashn/"
                     >
                         <BsInstagram className='icon ig' />
@@ -30,6 +32,7 @@ const Footer = ({color, setColor}) => {
                     </a>
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://api.whatsapp.com/send?phone=50497957646"
                     >
                         <BsWhatsapp className='icon wh' />

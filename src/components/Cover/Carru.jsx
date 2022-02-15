@@ -11,6 +11,7 @@ const Carru = () => {
                         <img
                             className="d-block w-100 crs"
                             src={process.env.PUBLIC_URL + el.img}
+                            style={{'opacity': '0.8'}}
                             alt={el.alt}
                         />
                         <Carousel.Caption>

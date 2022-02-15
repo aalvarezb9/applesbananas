@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import LOGO from '../../utils/img/LOGO.jpg';
 import colors from '../../utils/js/colors';
@@ -25,7 +25,7 @@ const Navbar = ({color, setColor}) => {
         <div className="nvCustomContainer" >
             <Nav
                 className="nvCustom"
-                defaultActiveKey="/"
+                // defaultActiveKey="/"
                 // onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
             >
                 <Nav.Item>
@@ -35,26 +35,26 @@ const Navbar = ({color, setColor}) => {
                 </Nav.Item>
                 <Nav.Item>
                     {pressed === 'home'? 
-                        <Nav.Link onClick={() => setPressed('home')} style={{background: '#F4E1A1'}} className='itemC' href="/applesbananas" >Inicio</Nav.Link>: 
-                            <Nav.Link onClick={() => setPressed('home')} className='itemC' href="/applesbananas" >Inicio</Nav.Link>
+                        <Nav.Link rel="noreferrer" onClick={() => setPressed('home')} style={{background: '#F4E1A1'}} className='itemC' href="/applesbananas" >Inicio</Nav.Link>: 
+                            <Nav.Link rel="noreferrer" onClick={() => setPressed('home')} className='itemC' href="/applesbananas" >Inicio</Nav.Link>
                     }
                 </Nav.Item>
                 <Nav.Item>
                     {pressed === 'servicios'? 
-                        <Nav.Link onClick={() => setPressed('servicios')} style={{background: '#F4E1A1'}} className='itemC' href="#servicios" eventKey="link-1" >Servicios</Nav.Link>: 
-                            <Nav.Link onClick={() => setPressed('servicios')} className='itemC' href="#servicios" eventKey="link-1">Servicios</Nav.Link>
+                        <Nav.Link rel="noreferrer" onClick={() => setPressed('servicios')} style={{background: '#F4E1A1'}} className='itemC' href="#servicios" eventKey="link-1" >Servicios</Nav.Link>: 
+                            <Nav.Link rel="noreferrer" onClick={() => setPressed('servicios')} className='itemC' href="#servicios" eventKey="link-1">Servicios</Nav.Link>
                     }
                 </Nav.Item>
                 <Nav.Item>
                     {pressed === 'contacto'? 
-                        <Nav.Link onClick={() => setPressed('contacto')} style={{background: '#F4E1A1'}} className='itemC' href="#contacto" eventKey="link-2" >Contacto</Nav.Link>: 
-                            <Nav.Link onClick={() => setPressed('contacto')} className='itemC' href="#contacto" eventKey="link-2">Contacto</Nav.Link>
+                        <Nav.Link rel="noreferrer" onClick={() => setPressed('contacto')} style={{background: '#F4E1A1'}} className='itemC' href="#contacto" eventKey="link-2" >Contacto</Nav.Link>: 
+                            <Nav.Link rel="noreferrer" onClick={() => setPressed('contacto')} className='itemC' href="#contacto" eventKey="link-2">Contacto</Nav.Link>
                     }
                 </Nav.Item>
                 <Nav.Item>
                     {pressed === 'acecade'? 
-                        <Nav.Link onClick={() => setPressed('acecade')} style={{background: '#F4E1A1'}} className='itemC' href="#acecade" eventKey="link-3" >Acerca de</Nav.Link>: 
-                            <Nav.Link onClick={() => setPressed('acecade')} className='itemC' href="#acecade" eventKey="link-3">Acerca de</Nav.Link>
+                        <Nav.Link rel="noreferrer" onClick={() => setPressed('acecade')} style={{background: '#F4E1A1'}} className='itemC' href="#acecade" eventKey="link-3" >Acerca de</Nav.Link>: 
+                            <Nav.Link rel="noreferrer" onClick={() => setPressed('acecade')} className='itemC' href="#acecade" eventKey="link-3">Acerca de</Nav.Link>
                     }
                 </Nav.Item>
             </Nav>

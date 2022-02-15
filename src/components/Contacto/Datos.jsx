@@ -10,6 +10,7 @@ const Datos = () => {
                 <div className="fbContainer">
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://www.facebook.com/applesnbananashn"
                     >
                         <BsFacebook className='icon icon2 fb' />
@@ -22,6 +23,7 @@ const Datos = () => {
                 <div className="igContainer">
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://www.instagram.com/applesnbananashn/"
                     >
                         <BsInstagram className='icon icon2 ig' />
@@ -45,6 +47,7 @@ const Datos = () => {
                 <div className="whContainer">
                     <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://api.whatsapp.com/send?phone=50497957646"
                     >
                         <BsWhatsapp className='icon icon2 wh' />

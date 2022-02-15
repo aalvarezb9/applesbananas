@@ -74,9 +74,9 @@ const Formulario = () => {
 
 
         if(
-            nombre.trim() == '' ||
-            correo.trim() == '' ||
-            duda.trim() == ''
+            nombre.trim() === '' ||
+            correo.trim() === '' ||
+            duda.trim() === ''
         ) {
             setTitulo('ERROR');
             setCuerpo('Por favor llene todos los campos');

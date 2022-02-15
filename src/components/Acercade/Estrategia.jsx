@@ -1,4 +1,4 @@
-import Texto from '../Contacto/Texto';
+// import Texto from '../Contacto/Texto';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -16,7 +16,7 @@ SwiperCore.use([Parallax,Pagination,Navigation]);
 
 const Estrategia = () => {
 
-    const parrafo = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus alias quisquam voluptatem natus culpa voluptas, hic assumenda veritatis sunt earum omnis itaque cupiditate ea quas minus ab ipsam dicta.'
+    // const parrafo = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat temporibus alias quisquam voluptatem natus culpa voluptas, hic assumenda veritatis sunt earum omnis itaque cupiditate ea quas minus ab ipsam dicta.'
 
     return (
         <>
